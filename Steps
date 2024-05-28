@@ -1,5 +1,5 @@
-1  yum update -y
     2  cd
+    1  yum update -y
     3  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
     4  rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
     5  sudo dnf install java-17-amazon-corretto -y
@@ -7,7 +7,4 @@
     7  sudo yum install jenkins -y
     8  sudo systemctl enable jenkins
     9  sudo systemctl start jenkins
-   10  cat /var/lib/jenkins/secrets/initialAdminPassword
-   11  j
-   12  which java
-   13  history
+   
